@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:background="#33ff0000"></FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/main_radio"
+        android:background="#666666"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+            <RadioButton
+                android:id="@+id/rb_function"
+                style="@style/FloorButton"
+                android:text="首页" />
+
+            <RadioButton
+                android:id="@+id/rb_news_center"
+                style="@style/FloorButton"
+                android:text="新闻中心" />
+
+            <RadioButton
+                android:id="@+id/rb_smart_service"
+                style="@style/FloorButton"
+                android:text="智慧服务" />
+
+            <RadioButton
+                android:id="@+id/rb_gov_affairs"
+                style="@style/FloorButton"
+                android:text="政务指南" />
+
+            <RadioButton
+
+                android:id="@+id/rb_setting"
+                style="@style/FloorButton"
+                android:text="设置" />
+
+    </RadioGroup>
+
+</LinearLayout>
